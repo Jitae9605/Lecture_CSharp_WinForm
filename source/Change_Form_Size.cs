@@ -53,7 +53,6 @@ namespace MouseEventTest_X_Y
 			this.ClientSize = new System.Drawing.Size(543, 322);
 			this.Name = "Change_Form_Size";
 			this.ResumeLayout(false);
-
 		}
 	}
 }

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="MessageFilter.cs" />
+    <Compile Remove="source\Change_Form_Size.cs" />
     <Compile Remove="source\MessageFilter.cs" />
     <Compile Remove="source\MouseEventTest_X_Y.cs" />
   </ItemGroup>
