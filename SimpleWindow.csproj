@@ -9,13 +9,20 @@
 
   <ItemGroup>
     <Compile Remove="MessageFilter.cs" />
+    <Compile Remove="source\Change_Form_Background.cs" />
+    <Compile Remove="source\Change_Form_bar_And_Title.cs" />
     <Compile Remove="source\Change_Form_Size.cs" />
+    <Compile Remove="source\Make_ControlBox_On_Form.cs" />
     <Compile Remove="source\MessageFilter.cs" />
     <Compile Remove="source\MouseEventTest_X_Y.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="MainApp.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="source\" />
   </ItemGroup>
 
 </Project>
